@@ -47,5 +47,5 @@ def training(X,y,w):
        
 
 if __name__ == '__main__':
-    y_pred,w = main()  
+    y_pred,w = training()  
     plt.plot(J)      
